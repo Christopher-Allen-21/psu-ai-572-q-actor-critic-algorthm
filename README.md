@@ -20,3 +20,12 @@ The entire observation state space within Acrobot is made up of six observable f
 Upon initialization, each parameter within the state is generated uniformly between -0.1 and +0.1. Generally, this will result in both links pointing downwards with some initial randomness to the system. The target height is calculated by the following: − cos(𝜃1) − cos(𝜃2 + 𝜃1) > 1.0.  Termination of the episode can also occur when the episode length is greater than 500.
 
 The goal of Acrobot is to reach the target height in as few steps as possible. Each step of the system that does not reach the target height provides a reward of -1.  A successful swing that reaches the target height results in termination of the episode with a reward of zero. This makes the lowest return -500, a failure to achieve the target height, and the maximum return -1 if the system miraculously reaches the target height in the first step.
+
+## To run locally
+- python3 -m venv venv
+- source venv/bin/activate
+- python /Users/christopherallen/Desktop/Projects/psu-ai-572-q-actor-critic-algorthm/app.py
+
+- deactivate
+
+- pip install -r requirements.txt
