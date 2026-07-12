@@ -11,6 +11,8 @@ Within the world of Reinforcement Learning (RF), OpenAI’s Gymnasium fork of th
 One such control problem is Acrobot. The goal of Acrobot, which simulates the chaotic physics of a double physical pendulum, is to apply a torque to the joint connecting the two bars of the physical pendulum, the actuated joint, and swing the free end of the pendulum up to a given height in as few moves as possible. The process of implementing RF algorithm to obtain the end goal for Acrobot is discussed below:
 
 ## The Acrobot Environment
+<img width="145" height="165" alt="image" src="https://github.com/user-attachments/assets/0a3282cd-60fc-45e0-89f5-95f3757f9862" />
+
 The Acrobot control task agent is a double physical pendulum. The first pendulum link has one end pinned in space on a pivot while the other end is linked through another pivoting joint to the second free end of the pendulum. The pivoting joint connecting the fixed and free pendulum links is known as the actuating joint. This joint will have torques applied to it to actuate the double pendulum into motion.
 
 The Acrobot system uses a discrete, deterministic action space representing the torque applied to the actuated joint. The action taken can be applying -1, 0, or +1 torque to the actuated joint.
@@ -24,8 +26,12 @@ The goal of Acrobot is to reach the target height in as few steps as possible. E
 ## To run locally
 - python3 -m venv venv
 - source venv/bin/activate
+- pip install -r requirements.txt
+  
 - python /Users/christopherallen/Desktop/Projects/psu-ai-572-q-actor-critic-algorthm/app.py
 
-- deactivate
+## Execution/Visualization
+- <img width="1423" height="325" alt="Screenshot 2026-07-12 at 3 20 54 PM" src="https://github.com/user-attachments/assets/c82f1dc6-541c-484f-a718-c82d05436546" />
+- <img width="1496" height="761" alt="Screenshot 2026-07-12 at 3 18 48 PM" src="https://github.com/user-attachments/assets/ff1459b1-49ea-4f11-b82b-ab37fc7d222a" />
 
-- pip install -r requirements.txt
+
