@@ -31,7 +31,9 @@ The goal of Acrobot is to reach the target height in as few steps as possible. E
 - python /Users/christopherallen/Desktop/Projects/psu-ai-572-q-actor-critic-algorthm/app.py
 
 ## Execution/Visualization
-- <img width="1423" height="325" alt="Screenshot 2026-07-12 at 3 20 54 PM" src="https://github.com/user-attachments/assets/c82f1dc6-541c-484f-a718-c82d05436546" />
-- <img width="1496" height="761" alt="Screenshot 2026-07-12 at 3 18 48 PM" src="https://github.com/user-attachments/assets/ff1459b1-49ea-4f11-b82b-ab37fc7d222a" />
+- <img width="1292" height="652" alt="Screenshot 2026-07-12 at 5 22 48 PM" src="https://github.com/user-attachments/assets/c6c40b26-097a-4e79-9618-8ef110017864" />
+- <img width="1498" height="760" alt="Screenshot 2026-07-12 at 5 22 32 PM" src="https://github.com/user-attachments/assets/683faba4-76ce-493d-b0ae-74b6ecad2088" />
+
+
 
 
