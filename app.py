@@ -95,12 +95,13 @@ def main():
 
     plt.show()
     env.close()
+    print("Run complete.")
 
 
 def running_mean(x):
-    N=50
+    N = 50
     kernel = np.ones(N)
-    conv_len = x.shape[0]-N
+    conv_len = x.shape[0] - N
     y = np.zeros(conv_len)
     for i in range(conv_len):
         y[i] = kernel @ x[i:i+N]
