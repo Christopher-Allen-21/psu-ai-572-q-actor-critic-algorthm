@@ -54,7 +54,7 @@ def main():
     )
 
     HORIZON = 500
-    MAX_TRAJECTORIES = 500
+    MAX_TRAJECTORIES = 1000
     gamma = 0.99
 
     # Scaling the reward because Acrobot returns -1 on almost every step. This keeps Q-values and policy gradients from becoming unnecessarily large
